@@ -1,0 +1,74 @@
+#conteudo {
+    background-color: #dcdcdc;
+    height: 400px;
+    display: flex;
+
+
+    /*
+    display: flex;
+     row| row-reverse | clumn |column-reverse 
+    flex-direction: row;
+     nowrap | wrap |wrap-reverse
+    flex-wrap: wrap;
+     flex-start | flex-end | center | space-between | space-around
+    justify-content: center;
+     stretch | center | flex-start | flex-end |baseline 
+    align-items: flex-start;
+    */
+}
+
+.item {
+    background: white;
+    border: 1px solid gray;
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    
+
+    /*
+    Define a capacidade de redução de tamanho do item
+    */
+    flex-shrink: 1;
+
+    /*
+    Indica o tamanho inicial do flex item antes da 
+    distribuição do espaço restante
+    */
+    flex-basis: 5px;
+}
+
+.item1 {
+    /* Define a proporção de espaço ocupado por um item */
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.item2 {
+    /* Define a proporção de espaço ocupado por um item */
+    flex-grow: 2;
+    flex-shrink:2;
+}
+.item3 {
+    /* Define a proporção de espaço ocupado por um item */
+    flex-grow: 1;
+    flex-shrink: 5;
+}
+.item4 {
+    /* Define a proporção de espaço ocupado por um item */
+    flex-grow: 1;
+}
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}

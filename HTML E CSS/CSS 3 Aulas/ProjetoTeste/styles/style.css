@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+#caixa1, #caixa2, #caixa3 {
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+#caixa1 {
+    background-image: url(../imagens/person-wearing-beige-sweater-holding-map-inside-vehicle-1252500.jpg);
+}
+
+#caixa3 {
+    background-image: url(../imagens/silhouette-of-person-walking-1046896.jpg);
+}
+
+#caixa2 {
+    height: 25%;
+    background-color:seashell;
+    color: black;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span {
+    color: white;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    background-color: darkslategrey;
+}
